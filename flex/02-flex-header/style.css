@@ -2,9 +2,8 @@
   font-family: monospace;
   background: papayawhip;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
+  
+  
 }
 
 .logo {
@@ -13,8 +12,8 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  align-self: center;
+  margin: 10px auto;
 }
 
 ul {
@@ -22,12 +21,19 @@ ul {
   list-style-type: none;
   display: flex;
   gap: 8px;
-  align-content: flex-start;
+  
 }
 
-.leftlinks {
-  display: flex;
-  align-items: flex-start;
+.left-links {
+  align-self: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.right-links {
+  align-self: center;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 a {
@@ -36,4 +42,5 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+  
 }
