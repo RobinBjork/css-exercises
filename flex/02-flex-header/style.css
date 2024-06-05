@@ -2,8 +2,9 @@
   font-family: monospace;
   background: papayawhip;
   display: flex;
-  
-  
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
 }
 
 .logo {
@@ -12,8 +13,8 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
-  align-self: center;
-  margin: 10px auto;
+  
+  
 }
 
 ul {
@@ -21,21 +22,11 @@ ul {
   list-style-type: none;
   display: flex;
   gap: 8px;
+  margin: 0;
+  padding: 0;
   
-  padding: 0px;
-  
 }
 
-.left-links {
-  align-self: center;
-  margin: 0px 20px;
-}
-
-.right-links {
-  align-self: center;
-  margin: 0px 20px;
-
-}
 
 a {
   font-size: 22px;
